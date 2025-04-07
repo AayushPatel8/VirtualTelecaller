@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <div id="cd-widget"></div>
+<script>
+  (function() {
+      if (window.chatWidgetScriptLoaded) return;
+      window.ChatWidgetConfig = {
+        projectId: "67e59b13f31584d92491cca2", 
+      };
+
+      var chatWidgetScript = document.createElement("script");
+      chatWidgetScript.type = 'text/javascript';
+      chatWidgetScript.src = "https://storage.googleapis.com/cdwidget/dist/assets/js/main.js";
+      document.body.appendChild(chatWidgetScript);
+
+      window.chatWidgetScriptLoaded = true;
+  })();
+</script>
+
+  </body>
+</html>
