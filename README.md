@@ -7,6 +7,7 @@ VirtualTelecaller is an AI-powered system designed to automate the handling of i
 ## Table of Contents
 
 - [About](#about)
+- [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -26,6 +27,17 @@ The platform aims to:
 - Provide 24/7 availability for customer queries.
 - Improve response accuracy and consistency.
 - Ensure faster query resolution with minimal wait time.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React
+- **Backend:** Python, Flask
+- **AI Integrations:**
+  - Gemini
+  - Groq Whisper
+  - Elevenlabs
 
 ---
 
@@ -116,8 +128,8 @@ npm i
 
 ## Contact
 
-Author: [Aayush Patel]  
-Email: [patelaayush1830@gmail.com]  
+Author: Aayush Patel  
+Email: patelaayush1830@gmail.com
 GitHub: [AayushPatel8](https://github.com/AayushPatel8)
 
 ---
